@@ -1,4 +1,4 @@
-#' Add Five to a number of any kind
+#' Add 5 to a number of any kind
 #' 
 #' Takes in any parameter value and add 5 to it
 #' @param x A numeric value to be added
