@@ -1,0 +1,17 @@
+{
+    "contents" : "#' Add Five to a number\n#' \n#' Takes in any parameter value and add 5 to it\n#' @param x A numeric value to be added\n#' @return the output after add 5\n#' @export\n\nAddFive <- function(x){\n  y <- x+5\n  return(y)\n}\n  \n#' Get residual of two integer numbers\n#'\n#' Take an integer number divided by another and get the residual\n#' @param a, b are integer numbers with a > b\n#' @return the residual of a divided by b\n#' @examples getresidual(111,11)             # gets residual 1\n#' getresidual(12,3)                         # gets residual 0\n#' @export\n\ngetresidual <- function (a,b) \n{\n  stopifnot(a > b)\n  stopifnot(a%%1==0 && b%%1==0)              # check fractional part to test if a and b are integers\n  for (i in 1:a){\n    c = a - b*i\n    if (c <= 0){\n      if (c==0){\n        res <- 0\n      }\n      else{\n      res <-  a - b*(i-1)\n      }\n      break\n    }   \n  }    \n  return (res)\n}",
+    "created" : 1420210465422.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "155568367",
+    "id" : "AC970DBE",
+    "lastKnownWriteTime" : 1420215185,
+    "path" : "E:/Wei/Graduate/MyRPackage/Rpkg/R/Myfunctions.R",
+    "project_path" : "R/Myfunctions.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

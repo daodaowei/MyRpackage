@@ -1,0 +1,8 @@
+Package: Rpkg
+Title: My trial package
+Version: 0.1
+Authors@R: "daodaowei <daodaowei2009@163.com> [aut, cre]"
+Description: This is a sample package
+Depends: R (>= 3.1.2)
+License: EUR
+LazyData: true
